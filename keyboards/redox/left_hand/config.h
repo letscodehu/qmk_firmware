@@ -1,5 +1,5 @@
 /*
-Copyright 2012 Jun Wako <wakojun@gmail.com>
+Copyright 2018 Mattia Dal Ben <matthewdibi@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -22,16 +22,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-#define RGBLED_NUM 10
-#define RGBLED_SPLIT {5,5} 
-#define RGBLIGHT_DEFAULT_VAL 128
-#define RGBLIGHT_EFFECT_STATIC_GRADIENT
-#define WS2812_DI_PIN E6
+/*
+ * Feature disable options
+ *  These options are also useful to firmware size reduction.
+ */
+
 /* disable debug print */
-//#define NO_DEBUG
+// #define NO_DEBUG
 
 /* disable print */
-//#define NO_PRINT
+// #define NO_PRINT
 
 /* disable action features */
 //#define NO_ACTION_LAYER
